@@ -1,0 +1,6 @@
+[project]
+name = "mbs_monte_carlo_pricer"
+version = "0.1.0"
+description = "Agency MBS pricing and risk with loan level termination models"
+authors = [{name = "Your Name"}]
+requires-python = ">=3.9"

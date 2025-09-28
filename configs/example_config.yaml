@@ -1,0 +1,24 @@
+seed: 42
+artifacts_dir: models
+
+data:
+  csv_path: data/synthetic/termination_sample.csv
+
+labels:
+  prepay: is_prepay
+  default: is_default
+
+rates:
+  n_paths: 50
+  n_steps: 360
+  dt: 0.0833333333333   # three months as fraction of year
+  r0: 0.03
+  a: 0.10
+  sigma: 0.01
+  theta: 0.03
+
+pool:
+  upb: 24000000.0
+  wac: 0.03
+  maturity_months: 360
+  loss_severity: 0.40
