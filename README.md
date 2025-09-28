@@ -1,6 +1,6 @@
 # Agency MBS Monte Carlo Pricing Engine
 
-I built this project to price agency mortgage pools using a one-factor short rate model together with loan-level termination models for prepayment and default. The work started during my time at UC Berkeley and I turned it into a clean package that looks and feels like a professional quant prototype.
+I built this project to price agency mortgage pools using a one-factor short rate model together with loan-level termination models for prepayment and default. The work started during my time at UC Berkeley.
 
 ---
 
